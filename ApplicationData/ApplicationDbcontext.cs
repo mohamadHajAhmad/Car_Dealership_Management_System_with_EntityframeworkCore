@@ -17,5 +17,6 @@ namespace ApplicationData
         public DbSet<Part> Parts { get; set; }
         public DbSet<Sale> Sales { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<CarPart> CarsParts{ get; set; }
     }
 }
