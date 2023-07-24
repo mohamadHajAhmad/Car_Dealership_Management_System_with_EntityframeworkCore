@@ -19,7 +19,6 @@ namespace DataOperation
                 Name = name,
                 Price = price,
                 Quantity = quantity,
-                Supplier = supplier
                 
             };
         }
