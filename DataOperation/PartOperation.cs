@@ -11,7 +11,7 @@ namespace DataOperation
     public class PartOperation : IOperation<Part>
     {
 
-        public static void Add(string name, int price, int quantity , Supplier supplier)
+        public static void Add(string name, int price, int quantity)
         {
             using var context = new ApplicationDbcontext();
             var part = new Part()

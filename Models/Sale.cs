@@ -12,7 +12,6 @@ namespace Models
         public int Totla { get; set; }
         public int CardId { get; set; }
         public int CustomerId { get; set; }
-        public Car Car { get; set; }
-        public Customer Customer { get; set; }
+
     }
 }

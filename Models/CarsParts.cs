@@ -10,8 +10,6 @@ namespace Models
     {
 
         public int Id { get; set; }
-        public int CarId { get; set; }
-        public int PartId { get; set; }
         public Car car { get; set; }
         public Part part { get; set; }
     }
